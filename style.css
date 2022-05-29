@@ -98,6 +98,10 @@ html{
     
 }
 
+.search-user button:hover{
+    background-color: rgb(72, 72, 255);
+}
+
 .search{
     display:flex;
     padding:30px;
@@ -129,16 +133,18 @@ html{
     margin-left:20px;
     background-color: rgba(221, 221, 221, 0.788);
 }
-
-.search-field .material-icons{
-    font-size: 35px;
-
-
+.header{
+    display:grid;
+    grid-column: 2 / 3;
+    background-color: white;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 0.5);
 }
-.search-field.material-icons{
-    height: 100px;
-    color:white;
+
+.header-container{
+    display:grid;  
+    grid-template-rows: 100px 150px;
 }
+
 
 .search-user{
     display:flex;
@@ -170,7 +176,6 @@ html{
     flex-wrap: wrap;
     gap:30px;
     padding:30px;
-    /*justify-content: center;*/
     align-content: flex-start;
     
 }
@@ -255,7 +260,7 @@ html{
     color:white;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 }
 
@@ -266,3 +271,13 @@ html{
     font-size: 35px;
 }
 
+.project-header{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom:5px;
+}
+
+.project .project-actions span:hover{
+    color:blue;
+    cursor: pointer;
+}
