@@ -11,7 +11,7 @@
 <ul>
     <li>Material Icons</li>
     <li>Google Fonts</li>
-
+</ul>
 <h2>Built With</h2>
 <ul>
     <li>HTML</l1>
