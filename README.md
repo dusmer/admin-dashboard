@@ -9,7 +9,8 @@
 
 <h2>Resources</h2>
 <ul>
-    <li>
+    <li>Material Icons</li>
+    <li>Google Fonts</li>
 
 <h2>Built With</h2>
 <ul>
